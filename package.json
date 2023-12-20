@@ -1,0 +1,32 @@
+{
+  "name": "catarina-black-theme",
+  "displayName": "Catarina Black Theme",
+  "description": "another vscode theme, but black",
+  "icon": "images/logo.jpeg",
+  "publisher": "jeancatarina",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "author": {
+    "name": "Jean Catarina",
+    "email": "jcc_ptb@hotmail.com",
+    "url": "https://linkedin.com/in/jeancatarina"
+  },
+  "repository": {
+    "url": "https://github.com/jeancatarina/catarina-black-theme",
+    "type": "git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Catarina Black Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Catarina Black Theme-color-theme.json"
+      }
+    ]
+  }
+}
